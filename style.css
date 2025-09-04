@@ -5,11 +5,15 @@
     justify-content: center;
     align-items: center;
 
+
 }
 
 img{
     max-width: 100px;
     border-radius: 30px;
+    display: flex;
+    align-items:flex-start;
+    margin: 0;
 }
 .menu {
     display: flex;
@@ -86,19 +90,6 @@ main{
     margin: 30px;
 }
 
-h5, h6 {
-    margin: 5px;
+body{
+    background-color: #acc0ff;
 }
-
-.fundo {
-    padding: 1px;
-    background-color: #190f46;
-    color: #448aaa;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.fundo a {
-    color: #448aaa;
-}
-
